@@ -29,6 +29,49 @@ My teammate also does not have to install every single package which is cumberso
 
 They just run docker compose up and everthing is installed.
 
+```
+
+**What is a Container**
+
+```
+A container is an isolated environment for running our application
+
+A virtual machine on the other hand is an abstraction of a real machine.
+
+We create virtual machines by the help of something we call a hypervisor example of
+this is something like vmware.
+
+Disavantages of Virtual Machines??
+(a)Each VM Needs a fullblown OS.
+(b)Slow to Start.Slow bacause the entire Operating
+system has to loaded just like starting your computer.
+(c)Resource Intensive..share things like disk space..
+Hardware resources.
+
+
+Advantages of containers??
+
+(a)Allow running of mutiple apps in isolation.
+(b)Are light weight.They do not need a full Operating System.
+(c)Use the OS of the host.All the containers will  share the OS of the Host.
+(d)Start quickly
+(e)Need less hardware rource.||When you are using a virtual machine you share the headware resources..ie the RAM.
+
+```
+
+**(c)Architecture of docker**
+
+```
+Uses Client Server Architecture
+
+All continers share the kernel of the Host.
+
+```
+
+**Installing Docker**
+
+```
+
 
 ```
 
